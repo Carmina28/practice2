@@ -1,17 +1,36 @@
-# This is a sample Python script.
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+"""
+Multiples lineas de comentarios
+Comentario1
+Comentario2
+"""
+
+#variables
+age = 15
+name = "Maria"
+mayorEdad = "Es mayor de edad"
+menorEdad = "Es menor de edad"
+#Concatenar
+print(f"{name} {mayorEdad}")
+
+#Concatenar un entero
+print(f"{name} tiene {str(age)}, {mayorEdad}")
+
+#Concatenar con el +
+print(name+", " + mayorEdad)
+
+#Indentar/Tabular
+
+#Conditionales
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+if (age>18):
+    print(mayorEdad)
+else:
+    print(menorEdad)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
